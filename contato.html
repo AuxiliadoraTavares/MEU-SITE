@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="servico.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="vantagens.html">Vantagens</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Fale conosco através dos nossos canais de comunicação:</p>
+            <p>WhatsApp: <a href="https://wa.me/5521969214736" target="_blank">5521969214736</a></p>
+            <p>E-mail: <a href="mailto:tati.29tavares@hotmail.com">tati.29tavares@hotmail.com</a></p>
+            <p> Endereço:Vila de Cava, Nova Iguaçu-RJ</p>
+        </section>
+
+        <section id="formulario-contato">
+            <h3>Envie uma Mensagem</h3>
+            <form onsubmit="enviarMensagem(event)">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <footer>
+            <div>
+                <img src="image/Human&programming.jpg" alt="Human & Programming" width="600" height="300">
+                <p>APRENDA PROGRAMAR E PROGRAME-SE PARA O FUTURO</p>
+            </div>
+            <div>
+                <strong>Links Rápidos</strong>
+                <nav>
+                    <a href="contato.html">Fale Conosco</a>
+                </nav>
+            </div>
+        </footer>
+
+        <div>
+            Desenvolvido por <a href="https://github.com/AuxiliadoraTavares" target="_blank">@Auxiliadora Tavares</a> na trilha de programação 2024
+        </div>
+    </main>
+
+    <script>
+        function enviarMensagem(event) {
+            event.preventDefault(); // Impede o envio do formulário
+            alert("Mensagem enviada com sucesso! Entraremos em contato em breve.");
+            document.getElementById("formulario-contato").reset(); // Limpa o formulário
+        }
+    </script>
+
+</body>
+</html>
