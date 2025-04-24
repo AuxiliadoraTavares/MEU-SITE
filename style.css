@@ -1,23 +1,23 @@
-/* Estilo Geral */
+
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  color: #2406d1; /* Cor de texto neutra */
-  background-color: #f0f4f8; /* Fundo claro e suave em azul claro */
+  color: #050646; 
+  background-color: #dfdfdf; 
   line-height: 1.6;
 }
 
-/* Cabeçalho */
+
 header {
-  background-color: #0861c7; /* Azul escuro */
-  color: #ffffff; /* Texto branco */
-  padding: 20px;
+  background-color: #0861c7; 
+  color: #ffffff; 
+  padding: 30px;
   text-align: center;
 }
 
 header nav a {
-  color: #d1cfcf; /* Cinza claro */
+  color: #d1cfcf; 
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
@@ -25,10 +25,10 @@ header nav a {
 }
 
 header nav a:hover {
-  color: #6e4503; /* Marrom claro ao passar o mouse */
+  color: #533503; 
 }
 
-/* Imagem de Logo */
+
 header img {
   display: block;
   margin: 0 auto 20px;
@@ -36,50 +36,50 @@ header img {
   height: auto;
 }
 
-/* Seções */
+
 section {
   margin: 40px auto;
   padding: 20px;
   max-width: 800px;
-  background-color: #ffffff; /* Fundo branco para seções */
+  background-color: #ffffff; 
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 section h1, section h2, section h3, section h4, section h5 {
-  color: #096a97; /* Cor de cabeçalho neutra */
+  color: #050f6d; 
   margin-bottom: 20px;
 }
 
 section p {
-  color: #7d7d7d; /* Cinza médio para parágrafos */
+  color: #220d0d; 
   margin-bottom: 15px;
 }
 
 section ul {
   padding-left: 20px;
-  color: #3e3e3e; /* Cor neutra para listas */
+  color: #1d1212; 
 }
 
 section ul li {
   margin-bottom: 10px;
 }
 
-/* Links */
+
 a {
-  color: #044858; /* Azul escuro */
+  color: #0c0999; 
   text-decoration: none;
   transition: color 10.3s ease;
 }
 
 a:hover {
-  color: #043447; /* Marrom escuro ao passar o mouse */
+  color: #043447; 
 }
 
 /* Rodapé */
 footer {
-  background-color: #0a4b5c; /* Marrom escuro */
-  color: #f5dd0b; /* Texto branco */
+  background-color: #0a4b5c; 
+  color: #f5dd0b; 
   padding: 30px 20px;
   text-align: center;
 }
@@ -91,21 +91,21 @@ footer div {
 footer nav a {
   display: inline-block;
   margin: 5px 10px;
-  color: #eed70a; /* Cinza claro */
+  color: #eed70a; 
   font-weight: bold;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 footer nav a:hover {
-  color: #0f485f; /* Marrom claro ao passar o mouse */
+  color: #0f485f; 
 }
 
 footer p {
   margin: 10px 0;
 }
 
-/* Links rápidos */
+
 footer strong {
   display: block;
   margin-bottom: 10px;
@@ -116,22 +116,21 @@ footer strong {
 footer div:last-child {
   margin-top: 20px;
   font-size: 14px;
-  color: #bdc3c7; /* Cinza claro */
+  color: #bdc3c7; 
 }
 
 footer div:last-child a {
-  color: #f3ef09; /* Branco */
+  color: #f3ef09; 
   text-decoration: underline;
 }
 
 footer div:last-child a:hover {
-  color: #ebdc08; /* Cinza claro ao passar o mouse */
-}
+  color: #ebdc08; }
 footer a {
-  color: #007BFF; /* Cor do link */
-  text-decoration: none; /* Remove o sublinhado */
+  color: #007BFF; 
+  text-decoration: none; 
 }
 
 footer a:hover {
-  color: #0056b3; /* Cor do link ao passar o mouse */
+  color: #0056b3; 
 }
