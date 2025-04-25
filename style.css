@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   color: #050646; 
-  background-color: #dfdfdf; 
+  background-color: #ffffff; 
   line-height: 1.6;
 }
 
@@ -17,7 +17,7 @@ header {
 }
 
 header nav a {
-  color: #d1cfcf; 
+  color: #ffdd1c; 
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
@@ -25,7 +25,7 @@ header nav a {
 }
 
 header nav a:hover {
-  color: #533503; 
+  color: #e70606; 
 }
 
 
@@ -73,12 +73,12 @@ a {
 }
 
 a:hover {
-  color: #043447; 
+  color: #0861c7; 
 }
 
 /* Rodapé */
 footer {
-  background-color: #0a4b5c; 
+  background-color: #0861c7; 
   color: #f5dd0b; 
   padding: 30px 20px;
   text-align: center;
@@ -91,7 +91,8 @@ footer div {
 footer nav a {
   display: inline-block;
   margin: 5px 10px;
-  color: #eed70a; 
+  color: #ebdc08;
+  color: darkred; 
   font-weight: bold;
   text-decoration: none;
   transition: color 0.3s ease;
@@ -120,7 +121,7 @@ footer div:last-child {
 }
 
 footer div:last-child a {
-  color: #f3ef09; 
+  color: #ebdc08; 
   text-decoration: underline;
 }
 
@@ -132,5 +133,5 @@ footer a {
 }
 
 footer a:hover {
-  color: #0056b3; 
+  color: #073c72; 
 }
